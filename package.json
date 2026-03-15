@@ -33,11 +33,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/philiprehberger/ts-query-string-ts.git"
+    "url": "git+https://github.com/philiprehberger/ts-query-string.git"
   },
-  "homepage": "https://github.com/philiprehberger/ts-query-string-ts#readme",
+  "homepage": "https://github.com/philiprehberger/ts-query-string#readme",
   "bugs": {
-    "url": "https://github.com/philiprehberger/ts-query-string-ts/issues"
+    "url": "https://github.com/philiprehberger/ts-query-string/issues"
   },
   "author": "Philip Rehberger",
   "engines": {
