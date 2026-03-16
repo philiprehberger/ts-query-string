@@ -1,5 +1,9 @@
 # @philiprehberger/query-string-ts
 
+[![CI](https://github.com/philiprehberger/query-string-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/query-string-ts/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/query-string-ts.svg)](https://www.npmjs.com/package/@philiprehberger/query-string-ts)
+[![License](https://img.shields.io/github/license/philiprehberger/query-string-ts)](LICENSE)
+
 Type-safe URL query string parsing and building.
 
 ## Installation
