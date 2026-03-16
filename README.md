@@ -1,21 +1,21 @@
-# @philiprehberger/query-string-ts
+# @philiprehberger/ts-query-string
 
-[![CI](https://github.com/philiprehberger/query-string-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/query-string-ts/actions/workflows/ci.yml)
-[![npm version](https://img.shields.io/npm/v/@philiprehberger/query-string-ts.svg)](https://www.npmjs.com/package/@philiprehberger/query-string-ts)
-[![License](https://img.shields.io/github/license/philiprehberger/query-string-ts)](LICENSE)
+[![CI](https://github.com/philiprehberger/ts-query-string/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-query-string/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/ts-query-string.svg)](https://www.npmjs.com/package/@philiprehberger/ts-query-string)
+[![License](https://img.shields.io/github/license/philiprehberger/ts-query-string)](LICENSE)
 
 Type-safe URL query string parsing and building.
 
 ## Installation
 
 ```bash
-npm install @philiprehberger/query-string-ts
+npm install @philiprehberger/ts-query-string
 ```
 
 ## Usage
 
 ```ts
-import { parseQuery, buildQuery, appendQuery } from '@philiprehberger/query-string-ts';
+import { parseQuery, buildQuery, appendQuery } from '@philiprehberger/ts-query-string';
 
 const params = parseQuery('?page=2&tags=a&tags=b', {
   page: 'number',
