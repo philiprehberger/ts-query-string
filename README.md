@@ -1,6 +1,6 @@
 # @philiprehberger/ts-query-string
 
-[![CI](https://github.com/philiprehberger/ts-query-string/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-query-string/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/ts-query-string/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/ts-query-string/actions/workflows/publish.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/ts-query-string.svg)](https://www.npmjs.com/package/@philiprehberger/ts-query-string)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-query-string)](LICENSE)
 
@@ -43,6 +43,15 @@ buildQuery({ tags: ['a', 'b'] }, { arrayFormat: 'brackets' }); // "tags[]=a&tags
 | `appendQuery(url, params)` | Append params to existing URL |
 | `pickQuery(search, keys)` | Extract subset of params |
 | `omitQuery(search, keys)` | Remove params by key |
+
+
+## Development
+
+```bash
+npm install
+npm run build
+npm test
+```
 
 ## License
 
