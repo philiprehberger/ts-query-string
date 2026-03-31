@@ -1,9 +1,8 @@
 # @philiprehberger/query-string-ts
 
-[![CI](https://github.com/philiprehberger/ts-query-string/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-query-string/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/query-string-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/query-string-ts/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/query-string-ts.svg)](https://www.npmjs.com/package/@philiprehberger/query-string-ts)
-[![License](https://img.shields.io/github/license/philiprehberger/ts-query-string)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/query-string-ts)](https://github.com/philiprehberger/query-string-ts/commits/main)
 
 Type-safe URL query string parsing and building
 
@@ -45,7 +44,6 @@ buildQuery({ tags: ['a', 'b'] }, { arrayFormat: 'brackets' }); // "tags[]=a&tags
 | `pickQuery(search, keys)` | Extract subset of params |
 | `omitQuery(search, keys)` | Remove params by key |
 
-
 ## Development
 
 ```bash
@@ -54,6 +52,24 @@ npm run build
 npm test
 ```
 
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/query-string-ts)
+
+🐛 [Report issues](https://github.com/philiprehberger/query-string-ts/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/query-string-ts/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
+
 ## License
 
-MIT
+[MIT](LICENSE)
